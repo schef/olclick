@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session version="3001" name="olclick" sample-rate="44100" id-counter="7357" event-counter="0">
+  <MIDIPorts>
+    <Port name="MIDI Clock in" direction="input"/>
+    <Port name="MIDI Clock out" direction="output"/>
+    <Port name="MIDI control in" direction="input"/>
+    <Port name="MIDI control out" direction="output"/>
+    <Port name="MMC in" direction="input"/>
+    <Port name="MMC out" direction="output"/>
+    <Port name="MTC in" direction="input"/>
+    <Port name="MTC out" direction="output"/>
+  </MIDIPorts>
+  <Config>
+    <Option name="xfade-choice" value="ConstantPowerMinus3dB"/>
+    <Option name="destructive-xfade-msecs" value="2"/>
+    <Option name="use-region-fades" value="1"/>
+    <Option name="show-region-fades" value="1"/>
+    <Option name="native-file-data-format" value="FormatFloat"/>
+    <Option name="native-file-header-format" value="WAVE"/>
+    <Option name="auto-play" value="0"/>
+    <Option name="auto-return" value="0"/>
+    <Option name="auto-input" value="1"/>
+    <Option name="punch-in" value="0"/>
+    <Option name="punch-out" value="0"/>
+    <Option name="subframes-per-frame" value="100"/>
+    <Option name="timecode-format" value="timecode_30"/>
+    <Option name="raid-path" value=""/>
+    <Option name="audio-search-path" value="/home/schef/OLCLICK"/>
+    <Option name="midi-search-path" value=""/>
+    <Option name="jack-time-master" value="1"/>
+    <Option name="use-video-sync" value="0"/>
+    <Option name="video-pullup" value="0"/>
+    <Option name="show-summary" value="1"/>
+    <Option name="show-group-tabs" value="1"/>
+    <Option name="external-sync" value="0"/>
+    <Option name="insert-merge-policy" value="InsertMergeRelax"/>
+    <Option name="timecode-offset" value="0"/>
+    <Option name="timecode-offset-negative" value="1"/>
+    <Option name="slave-timecode-offset" value=" 00:00:00:00"/>
+    <Option name="timecode-generator-offset" value=" 00:00:00:00"/>
+    <Option name="glue-new-markers-to-bars-and-beats" value="0"/>
+    <Option name="midi-copy-is-fork" value="0"/>
+    <Option name="glue-new-regions-to-bars-and-beats" value="0"/>
+    <Option name="use-video-file-fps" value="0"/>
+    <Option name="videotimeline-pullup" value="1"/>
+    <Option name="show-busses-on-meterbridge" value="0"/>
+    <Option name="show-master-on-meterbridge" value="1"/>
+    <Option name="show-midi-on-meterbridge" value="1"/>
+    <Option name="show-rec-on-meterbridge" value="1"/>
+    <Option name="show-mute-on-meterbridge" value="0"/>
+    <Option name="show-solo-on-meterbridge" value="0"/>
+    <Option name="show-monitor-on-meterbridge" value="0"/>
+    <Option name="show-name-on-meterbridge" value="1"/>
+    <Option name="meterbridge-label-height" value="0"/>
+  </Config>
+  <Metadata/>
+  <Sources>
+    <Source name="14_OL_BB_DRUMSEND_NEW.wav" type="audio" flags="" id="486" channel="0" origin="/home/schef/OLCLICK/14_OL_BB_DRUMSEND_NEW.wav"/>
+    <Source name="14_OL_BB_DRUMSEND_NEW.wav" type="audio" flags="" id="488" channel="1" origin="/home/schef/OLCLICK/14_OL_BB_DRUMSEND_NEW.wav"/>
+    <Source name="14-1_OL_BB_FOHSEND_NEW.wav" type="audio" flags="" id="573" channel="0" origin="/home/schef/OLCLICK/14-1_OL_BB_FOHSEND_NEW.wav"/>
+    <Source name="14-1_OL_BB_FOHSEND_NEW.wav" type="audio" flags="" id="575" channel="1" origin="/home/schef/OLCLICK/14-1_OL_BB_FOHSEND_NEW.wav"/>
+    <Source name="01_OL_BMP_DRUMSEND.wav" type="audio" flags="" id="611" channel="0" origin="/home/schef/OLCLICK/01_OL_BMP_DRUMSEND.wav"/>
+    <Source name="01_OL_BMP_DRUMSEND.wav" type="audio" flags="" id="613" channel="1" origin="/home/schef/OLCLICK/01_OL_BMP_DRUMSEND.wav"/>
+    <Source name="01-1_OL_BMP_FOHSEND.wav" type="audio" flags="" id="651" channel="0" origin="/home/schef/OLCLICK/01-1_OL_BMP_FOHSEND.wav"/>
+    <Source name="01-1_OL_BMP_FOHSEND.wav" type="audio" flags="" id="653" channel="1" origin="/home/schef/OLCLICK/01-1_OL_BMP_FOHSEND.wav"/>
+    <Source name="02-1_OL_MTB_FOHSEND.wav" type="audio" flags="" id="717" channel="0" origin="/home/schef/OLCLICK/02-1_OL_MTB_FOHSEND.wav"/>
+    <Source name="02-1_OL_MTB_FOHSEND.wav" type="audio" flags="" id="719" channel="1" origin="/home/schef/OLCLICK/02-1_OL_MTB_FOHSEND.wav"/>
+    <Source name="02_OL_MTB_DRUMSEND.wav" type="audio" flags="" id="747" channel="0" origin="/home/schef/OLCLICK/02_OL_MTB_DRUMSEND.wav"/>
+    <Source name="02_OL_MTB_DRUMSEND.wav" type="audio" flags="" id="749" channel="1" origin="/home/schef/OLCLICK/02_OL_MTB_DRUMSEND.wav"/>
+    <Source name="03-1_OL_MV_FOHSEND.wav" type="audio" flags="" id="783" channel="0" origin="/home/schef/OLCLICK/03-1_OL_MV_FOHSEND.wav"/>
+    <Source name="03-1_OL_MV_FOHSEND.wav" type="audio" flags="" id="785" channel="1" origin="/home/schef/OLCLICK/03-1_OL_MV_FOHSEND.wav"/>
+    <Source name="03_OL_MV_DRUMSEND_NEW.wav" type="audio" flags="" id="823" channel="0" origin="/home/schef/OLCLICK/03_OL_MV_DRUMSEND_NEW.wav"/>
+    <Source name="03_OL_MV_DRUMSEND_NEW.wav" type="audio" flags="" id="825" channel="1" origin="/home/schef/OLCLICK/03_OL_MV_DRUMSEND_NEW.wav"/>
+    <Source name="04_OL_Cash_129.wav" type="audio" flags="" id="859" channel="0" origin="/home/schef/OLCLICK/04_OL_Cash_129.wav"/>
+    <Source name="04_OL_Cash_129.wav" type="audio" flags="" id="861" channel="1" origin="/home/schef/OLCLICK/04_OL_Cash_129.wav"/>
+    <Source name="05_OL_HM_200.wav" type="audio" flags="" id="895" channel="0" origin="/home/schef/OLCLICK/05_OL_HM_200.wav"/>
+    <Source name="05_OL_HM_200.wav" type="audio" flags="" id="897" channel="1" origin="/home/schef/OLCLICK/05_OL_HM_200.wav"/>
+    <Source name="06-1_OL_LavishLove_FOHSEND_160BPM.wav" type="audio" flags="" id="993" channel="0" origin="/home/schef/OLCLICK/06-1_OL_LavishLove_FOHSEND_160BPM.wav"/>
+    <Source name="06-1_OL_LavishLove_FOHSEND_160BPM.wav" type="audio" flags="" id="995" channel="1" origin="/home/schef/OLCLICK/06-1_OL_LavishLove_FOHSEND_160BPM.wav"/>
+    <Source name="06_OL_LavishLove_DRUMSEND_160BPM.wav" type="audio" flags="" id="1033" channel="0" origin="/home/schef/OLCLICK/06_OL_LavishLove_DRUMSEND_160BPM.wav"/>
+    <Source name="06_OL_LavishLove_DRUMSEND_160BPM.wav" type="audio" flags="" id="1035" channel="1" origin="/home/schef/OLCLICK/06_OL_LavishLove_DRUMSEND_160BPM.wav"/>
+    <Source name="08-1_OL_CROATIA_FOHSEND.wav" type="audio" flags="" id="1064" channel="0" origin="/home/schef/OLCLICK/08-1_OL_CROATIA_FOHSEND.wav"/>
+    <Source name="08-1_OL_CROATIA_FOHSEND.wav" type="audio" flags="" id="1066" channel="1" origin="/home/schef/OLCLICK/08-1_OL_CROATIA_FOHSEND.wav"/>
+    <Source name="08_OL_CROATIA_DRUMSEND.wav" type="audio" flags="" id="1104" channel="0" origin="/home/schef/OLCLICK/08_OL_CROATIA_DRUMSEND.wav"/>
+    <Source name="08_OL_CROATIA_DRUMSEND.wav" type="audio" flags="" id="1106" channel="1" origin="/home/schef/OLCLICK/08_OL_CROATIA_DRUMSEND.wav"/>
+    <Source name="09_OL_FREE_DRUMSEND_INTRO_145BPM.wav" type="audio" flags="" id="1129" channel="0" origin="/home/schef/OLCLICK/09_OL_FREE_DRUMSEND_INTRO_145BPM.wav"/>
+    <Source name="09_OL_FREE_DRUMSEND_INTRO_145BPM.wav" type="audio" flags="" id="1131" channel="1" origin="/home/schef/OLCLICK/09_OL_FREE_DRUMSEND_INTRO_145BPM.wav"/>
+    <Source name="09-1_OL_FREE_FOHSEND_INTRO_145BPM.wav" type="audio" flags="" id="1165" channel="0" origin="/home/schef/OLCLICK/09-1_OL_FREE_FOHSEND_INTRO_145BPM.wav"/>
+    <Source name="09-1_OL_FREE_FOHSEND_INTRO_145BPM.wav" type="audio" flags="" id="1167" channel="1" origin="/home/schef/OLCLICK/09-1_OL_FREE_FOHSEND_INTRO_145BPM.wav"/>
+    <Source name="10-1_OL_HH_FOHSEND.wav" type="audio" flags="" id="1201" channel="0" origin="/home/schef/OLCLICK/10-1_OL_HH_FOHSEND.wav"/>
+    <Source name="10-1_OL_HH_FOHSEND.wav" type="audio" flags="" id="1203" channel="1" origin="/home/schef/OLCLICK/10-1_OL_HH_FOHSEND.wav"/>
+    <Source name="10_OL_HH_DRUMSEND.wav" type="audio" flags="" id="1255" channel="0" origin="/home/schef/OLCLICK/10_OL_HH_DRUMSEND.wav"/>
+    <Source name="10_OL_HH_DRUMSEND.wav" type="audio" flags="" id="1257" channel="1" origin="/home/schef/OLCLICK/10_OL_HH_DRUMSEND.wav"/>
+    <Source name="11_OL_BV_129.wav" type="audio" flags="" id="1291" channel="0" origin="/home/schef/OLCLICK/11_OL_BV_129.wav"/>
+    <Source name="11_OL_BV_129.wav" type="audio" flags="" id="1293" channel="1" origin="/home/schef/OLCLICK/11_OL_BV_129.wav"/>
+    <Source name="12-1_OL_LT_FOHSEND.wav" type="audio" flags="" id="1327" channel="0" origin="/home/schef/OLCLICK/12-1_OL_LT_FOHSEND.wav"/>
+    <Source name="12-1_OL_LT_FOHSEND.wav" type="audio" flags="" id="1329" channel="1" origin="/home/schef/OLCLICK/12-1_OL_LT_FOHSEND.wav"/>
+    <Source name="12_OL_LT_DRUMSEND.wav" type="audio" flags="" id="1357" channel="0" origin="/home/schef/OLCLICK/12_OL_LT_DRUMSEND.wav"/>
+    <Source name="12_OL_LT_DRUMSEND.wav" type="audio" flags="" id="1359" channel="1" origin="/home/schef/OLCLICK/12_OL_LT_DRUMSEND.wav"/>
+    <Source name="13_OL_SS_205.wav" type="audio" flags="" id="1393" channel="0" origin="/home/schef/OLCLICK/13_OL_SS_205.wav"/>
+    <Source name="13_OL_SS_205.wav" type="audio" flags="" id="1395" channel="1" origin="/home/schef/OLCLICK/13_OL_SS_205.wav"/>
+    <Source name="FalisMi_Drumsend-Stereo Out.wav" type="audio" flags="" id="1577" channel="0" origin="/home/schef/OLCLICK/FalisMi_Drumsend-Stereo Out.wav"/>
+    <Source name="FalisMi_Drumsend-Stereo Out.wav" type="audio" flags="" id="1579" channel="1" origin="/home/schef/OLCLICK/FalisMi_Drumsend-Stereo Out.wav"/>
+    <Source name="FalisMi_FOHSEND-Stereo Out.wav" type="audio" flags="" id="1607" channel="0" origin="/home/schef/OLCLICK/FalisMi_FOHSEND-Stereo Out.wav"/>
+    <Source name="FalisMi_FOHSEND-Stereo Out.wav" type="audio" flags="" id="1609" channel="1" origin="/home/schef/OLCLICK/FalisMi_FOHSEND-Stereo Out.wav"/>
+    <Source name="Plafon Live Render44.wav" type="audio" flags="" id="5508" channel="0" origin="/home/schef/OLCLICK/Plafon Live Render44.wav"/>
+    <Source name="Plafon Live Render44.wav" type="audio" flags="" id="5510" channel="1" origin="/home/schef/OLCLICK/Plafon Live Render44.wav"/>
+  </Sources>
+  <Regions>
+    <Region name="14_OL_BB_DRUMSEND_NEW" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115471" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="532" type="audio" first-edit="nothing" source-0="486" source-1="488" master-source-0="486" master-source-1="488" channels="2"/>
+    <Region name="14_OL_BB_DRUMSEND_NEW" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115471" position="441000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="541" type="audio" first-edit="nothing" source-0="486" source-1="488" master-source-0="486" master-source-1="488" channels="2"/>
+    <Region name="14_OL_BB_DRUMSEND_NEW.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115471" position="441000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="559" type="audio" first-edit="nothing" source-0="486" source-1="488" master-source-0="486" master-source-1="488" channels="2"/>
+    <Region name="14-1_OL_BB_FOHSEND_NEW" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115472" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="577" type="audio" first-edit="nothing" source-0="573" source-1="575" master-source-0="573" master-source-1="575" channels="2"/>
+    <Region name="14-1_OL_BB_FOHSEND_NEW" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115472" position="441000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="586" type="audio" first-edit="nothing" source-0="573" source-1="575" master-source-0="573" master-source-1="575" channels="2"/>
+    <Region name="01_OL_BMP_DRUMSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7744433" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="615" type="audio" first-edit="nothing" source-0="611" source-1="613" master-source-0="611" master-source-1="613" channels="2"/>
+    <Region name="01_OL_BMP_DRUMSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7744433" position="551250" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="624" type="audio" first-edit="nothing" source-0="611" source-1="613" master-source-0="611" master-source-1="613" channels="2"/>
+    <Region name="01_OL_BMP_DRUMSEND.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7744433" position="441000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="637" type="audio" first-edit="nothing" source-0="611" source-1="613" master-source-0="611" master-source-1="613" channels="2"/>
+    <Region name="01-1_OL_BMP_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7744433" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="655" type="audio" first-edit="nothing" source-0="651" source-1="653" master-source-0="651" master-source-1="653" channels="2"/>
+    <Region name="01-1_OL_BMP_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7744433" position="727650" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="664" type="audio" first-edit="nothing" source-0="651" source-1="653" master-source-0="651" master-source-1="653" channels="2"/>
+    <Region name="02-1_OL_MTB_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9308820" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="721" type="audio" first-edit="nothing" source-0="717" source-1="719" master-source-0="717" master-source-1="719" channels="2"/>
+    <Region name="02-1_OL_MTB_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="1" start="0" length="9308820" position="8467200" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="730" type="audio" first-edit="nothing" source-0="717" source-1="719" master-source-0="717" master-source-1="719" channels="2"/>
+    <Region name="02_OL_MTB_DRUMSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9308820" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="751" type="audio" first-edit="nothing" source-0="747" source-1="749" master-source-0="747" master-source-1="749" channels="2"/>
+    <Region name="02_OL_MTB_DRUMSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9308820" position="8467200" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="760" type="audio" first-edit="nothing" source-0="747" source-1="749" master-source-0="747" master-source-1="749" channels="2"/>
+    <Region name="03-1_OL_MV_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10666687" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="787" type="audio" first-edit="nothing" source-0="783" source-1="785" master-source-0="783" master-source-1="785" channels="2"/>
+    <Region name="03-1_OL_MV_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10666687" position="18235350" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="796" type="audio" first-edit="nothing" source-0="783" source-1="785" master-source-0="783" master-source-1="785" channels="2"/>
+    <Region name="03_OL_MV_DRUMSEND_NEW" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10584001" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="827" type="audio" first-edit="nothing" source-0="823" source-1="825" master-source-0="823" master-source-1="825" channels="2"/>
+    <Region name="04_OL_Cash_129" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11158326" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="863" type="audio" first-edit="nothing" source-0="859" source-1="861" master-source-0="859" master-source-1="861" channels="2"/>
+    <Region name="05_OL_HM_200" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="5292001" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="899" type="audio" first-edit="nothing" source-0="895" source-1="897" master-source-0="895" master-source-1="897" channels="2"/>
+    <Region name="05_OL_HM_200.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="5292001" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="954" type="audio" first-edit="nothing" source-0="895" source-1="897" master-source-0="895" master-source-1="897" channels="2"/>
+    <Region name="06-1_OL_LavishLove_FOHSEND_160BPM" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8779376" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997" type="audio" first-edit="nothing" source-0="993" source-1="995" master-source-0="993" master-source-1="995" channels="2"/>
+    <Region name="06-1_OL_LavishLove_FOHSEND_160BPM" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8779376" position="45775800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1006" type="audio" first-edit="nothing" source-0="993" source-1="995" master-source-0="993" master-source-1="995" channels="2"/>
+    <Region name="06_OL_LavishLove_DRUMSEND_160BPM" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8779376" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1037" type="audio" first-edit="nothing" source-0="1033" source-1="1035" master-source-0="1033" master-source-1="1035" channels="2"/>
+    <Region name="08-1_OL_CROATIA_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8089201" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1068" type="audio" first-edit="nothing" source-0="1064" source-1="1066" master-source-0="1064" master-source-1="1066" channels="2"/>
+    <Region name="08-1_OL_CROATIA_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8089201" position="54860400" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1077" type="audio" first-edit="nothing" source-0="1064" source-1="1066" master-source-0="1064" master-source-1="1066" channels="2"/>
+    <Region name="08_OL_CROATIA_DRUMSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8089201" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1108" type="audio" first-edit="nothing" source-0="1104" source-1="1106" master-source-0="1104" master-source-1="1106" channels="2"/>
+    <Region name="09_OL_FREE_DRUMSEND_INTRO_145BPM" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9261074" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1133" type="audio" first-edit="nothing" source-0="1129" source-1="1131" master-source-0="1129" master-source-1="1131" channels="2"/>
+    <Region name="09-1_OL_FREE_FOHSEND_INTRO_145BPM" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9261074" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1169" type="audio" first-edit="nothing" source-0="1165" source-1="1167" master-source-0="1165" master-source-1="1167" channels="2"/>
+    <Region name="10-1_OL_HH_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7560001" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1205" type="audio" first-edit="nothing" source-0="1201" source-1="1203" master-source-0="1201" master-source-1="1203" channels="2"/>
+    <Region name="10-1_OL_HH_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7560001" position="72853200" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1214" type="audio" first-edit="nothing" source-0="1201" source-1="1203" master-source-0="1201" master-source-1="1203" channels="2"/>
+    <Region name="10_OL_HH_DRUMSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7560001" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1259" type="audio" first-edit="nothing" source-0="1255" source-1="1257" master-source-0="1255" master-source-1="1257" channels="2"/>
+    <Region name="10_OL_HH_DRUMSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7560001" position="72828766" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1268" type="audio" first-edit="nothing" source-0="1255" source-1="1257" master-source-0="1255" master-source-1="1257" channels="2"/>
+    <Region name="11_OL_BV_129" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11795247" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1295" type="audio" first-edit="nothing" source-0="1291" source-1="1293" master-source-0="1291" master-source-1="1293" channels="2"/>
+    <Region name="12-1_OL_LT_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10461878" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1331" type="audio" first-edit="nothing" source-0="1327" source-1="1329" master-source-0="1327" master-source-1="1329" channels="2"/>
+    <Region name="12_OL_LT_DRUMSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10461878" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1361" type="audio" first-edit="nothing" source-0="1357" source-1="1359" master-source-0="1357" master-source-1="1359" channels="2"/>
+    <Region name="13_OL_SS_205" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10119337" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1397" type="audio" first-edit="nothing" source-0="1393" source-1="1395" master-source-0="1393" master-source-1="1395" channels="2"/>
+    <Region name="14-1_OL_BB_FOHSEND_NEW.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115472" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1424" type="audio" first-edit="nothing" source-0="573" source-1="575" master-source-0="573" master-source-1="575" channels="2"/>
+    <Region name="14-1_OL_BB_FOHSEND_NEW.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115472" position="113954400" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="12" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1433" type="audio" first-edit="nothing" source-0="573" source-1="575" master-source-0="573" master-source-1="575" channels="2"/>
+    <Region name="14_OL_BB_DRUMSEND_NEW.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115471" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1445" type="audio" first-edit="nothing" source-0="486" source-1="488" master-source-0="486" master-source-1="488" channels="2"/>
+    <Region name="14_OL_BB_DRUMSEND_NEW.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115471" position="113689800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1454" type="audio" first-edit="nothing" source-0="486" source-1="488" master-source-0="486" master-source-1="488" channels="2"/>
+    <Region name="14-1_OL_BB_FOHSEND_NEW.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115472" position="113954400" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1467" type="audio" first-edit="nothing" source-0="573" source-1="575" master-source-0="573" master-source-1="575" channels="2"/>
+    <Region name="14-1_OL_BB_FOHSEND_NEW.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115472" position="113866200" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="12" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1482" type="audio" first-edit="nothing" source-0="573" source-1="575" master-source-0="573" master-source-1="575" channels="2"/>
+    <Region name="FalisMi_Drumsend-Stereo Out" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7851631" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1581" type="audio" first-edit="nothing" source-0="1577" source-1="1579" master-source-0="1577" master-source-1="1579" channels="2"/>
+    <Region name="FalisMi_FOHSEND-Stereo Out" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7851631" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1611" type="audio" first-edit="nothing" source-0="1607" source-1="1609" master-source-0="1607" master-source-1="1609" channels="2"/>
+    <Region name="FalisMi_FOHSEND-Stereo Out" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7851631" position="123391800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1620" type="audio" first-edit="nothing" source-0="1607" source-1="1609" master-source-0="1607" master-source-1="1609" channels="2"/>
+    <Region name="Plafon Live Render44" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7903159" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5512" type="audio" first-edit="nothing" source-0="5508" source-1="5510" master-source-0="5508" master-source-1="5510" channels="2"/>
+  </Regions>
+  <Locations>
+    <Location id="509" name="session" start="0" end="132000558" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2498" name="Loop" start="0" end="132000558" flags="IsAutoLoop,IsHidden" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2499" name="Punch" start="0" end="131331630" flags="IsAutoPunch,IsHidden" locked="no" position-lock-style="AudioTime"/>
+    <Location id="424" name="break_my_pride" start="441000" end="441000" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="711" name="meant_to_be" start="8467200" end="8467200" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="777" name="mnogo_vise" start="18074906" end="18074906" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="853" name="cash" start="28841400" end="28841400" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="889" name="have_mercy" start="40219200" end="40219200" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="987" name="lavish_love" start="45787311" end="45787311" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1058" name="croatia" start="54933159" end="54933159" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1159" name="free" start="63247594" end="63247594" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1195" name="hands_high" start="72853200" end="72853200" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1285" name="blured_vision" start="80765478" end="80765478" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1321" name="last_time" start="92826344" end="92826344" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1387" name="something_special" start="103597231" end="103597231" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1418" name="bez_boli" start="113979897" end="113979897" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1531" name="plafon" start="123391800" end="123391800" flags="IsMark,IsCDMarker" locked="no" position-lock-style="AudioTime"/>
+  </Locations>
+  <Bundles/>
+  <Routes>
+    <Route id="26" name="master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
+      <IO name="master" id="43" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="master/audio_in 1">
+          <Connection other="klik/audio_out 1"/>
+          <Connection other="loop/audio_out 1"/>
+        </Port>
+        <Port type="audio" name="master/audio_in 2">
+          <Connection other="klik/audio_out 2"/>
+          <Connection other="loop/audio_out 2"/>
+        </Port>
+      </IO>
+      <IO name="master" id="44" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="master/audio_out 1"/>
+        <Port type="audio" name="master/audio_out 2"/>
+      </IO>
+      <Controllable name="solo" id="28" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="30" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
+      <RemoteControl id="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="34" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="38" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="36" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="40" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="42" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="45" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="47" flags="GainLike" value="1.000000000000"/>
+      </Processor>
+      <Processor id="48" name="meter-master" active="yes" user-latency="0" type="meter"/>
+      <Processor id="49" name="master" active="yes" user-latency="0" own-input="yes" own-output="no" output="master" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="34" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="38" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="36" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="40" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="42" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+    </Route>
+    <Route id="190" name="klik" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="klik" id="207" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="klik/audio_in 1">
+          <Connection other="system:capture_1"/>
+        </Port>
+        <Port type="audio" name="klik/audio_in 2">
+          <Connection other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="klik" id="208" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="klik/audio_out 1">
+          <Connection other="system:playback_1"/>
+          <Connection other="master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="klik/audio_out 2">
+          <Connection other="system:playback_2"/>
+          <Connection other="master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="192" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="194" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
+      <RemoteControl id="1"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="198" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="202" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="200" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="204" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="206" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="209" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="211" flags="GainLike" value="1.000000000000"/>
+      </Processor>
+      <Processor id="212" name="meter-Audio 1" active="yes" user-latency="0" type="meter"/>
+      <Processor id="213" name="klik" active="yes" user-latency="0" own-input="yes" own-output="no" output="klik" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="198" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="202" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="200" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="204" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="206" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="215" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="klik" name="klik" id="217" speed="1.000000" capture-alignment="Automatic" channels="2"/>
+    </Route>
+    <Route id="225" name="loop" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="2" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="loop" id="242" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="loop/audio_in 1">
+          <Connection other="system:capture_1"/>
+        </Port>
+        <Port type="audio" name="loop/audio_in 2">
+          <Connection other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="loop" id="243" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="loop/audio_out 1">
+          <Connection other="system:playback_3"/>
+          <Connection other="master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="loop/audio_out 2">
+          <Connection other="system:playback_4"/>
+          <Connection other="master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="227" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="229" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
+      <RemoteControl id="2"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="233" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="237" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="235" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="239" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="241" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="244" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="246" flags="GainLike" value="1.000000000000"/>
+      </Processor>
+      <Processor id="247" name="meter-Audio 2" active="yes" user-latency="0" type="meter"/>
+      <Processor id="248" name="loop" active="yes" user-latency="0" own-input="yes" own-output="no" output="loop" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="233" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="237" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="235" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="239" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="241" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="250" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="loop" name="loop" id="252" speed="1.000000" capture-alignment="Automatic" channels="2"/>
+    </Route>
+  </Routes>
+  <Playlists>
+    <Playlist id="218" name="klik" type="audio" orig-track-id="190" frozen="no" combine-ops="0">
+      <Region name="01_OL_BMP_DRUMSEND.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7744433" position="441000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="692" type="audio" first-edit="nothing" source-0="611" source-1="613" master-source-0="611" master-source-1="613" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="693" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="694" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="695" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="696" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="02_OL_MTB_DRUMSEND.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9308820" position="8467200" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="12" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2555" type="audio" first-edit="nothing" source-0="747" source-1="749" master-source-0="747" master-source-1="749" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="2556" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="2557" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="2558" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="2559" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="03_OL_MV_DRUMSEND_NEW" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="1" start="0" length="10584001" position="17992800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="836" type="audio" first-edit="nothing" source-0="823" source-1="825" master-source-0="823" master-source-1="825" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="837" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="838" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="839" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="840" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="04_OL_Cash_129" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11158326" position="28841400" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="872" type="audio" first-edit="nothing" source-0="859" source-1="861" master-source-0="859" master-source-1="861" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="873" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="874" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="875" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="876" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="05_OL_HM_200.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="5292001" position="40219200" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="967" type="audio" first-edit="nothing" source-0="895" source-1="897" master-source-0="895" master-source-1="897" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="968" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="969" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="970" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="971" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="06_OL_LavishLove_DRUMSEND_160BPM" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8779376" position="45775800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1046" type="audio" first-edit="nothing" source-0="1033" source-1="1035" master-source-0="1033" master-source-1="1035" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1047" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1048" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1049" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1050" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="08_OL_CROATIA_DRUMSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8089201" position="54860400" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1117" type="audio" first-edit="nothing" source-0="1104" source-1="1106" master-source-0="1104" master-source-1="1106" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1118" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1119" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1120" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1121" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="09_OL_FREE_DRUMSEND_INTRO_145BPM" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9261074" position="63239400" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1142" type="audio" first-edit="nothing" source-0="1129" source-1="1131" master-source-0="1129" master-source-1="1131" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1143" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1144" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1145" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1146" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="10_OL_HH_DRUMSEND.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7560001" position="72853200" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="13" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2625" type="audio" first-edit="nothing" source-0="1255" source-1="1257" master-source-0="1255" master-source-1="1257" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="2626" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="2627" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="2628" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="2629" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="11_OL_BV_129" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11795247" position="80703000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1304" type="audio" first-edit="nothing" source-0="1291" source-1="1293" master-source-0="1291" master-source-1="1293" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1305" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1306" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1307" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1308" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="12_OL_LT_DRUMSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10461878" position="92786400" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1370" type="audio" first-edit="nothing" source-0="1357" source-1="1359" master-source-0="1357" master-source-1="1359" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1371" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1372" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1373" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1374" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="13_OL_SS_205" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10119337" position="103546800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1406" type="audio" first-edit="nothing" source-0="1393" source-1="1395" master-source-0="1393" master-source-1="1395" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1407" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1408" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1409" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1410" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="14_OL_BB_DRUMSEND_NEW.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115471" position="113954400" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="10" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1517" type="audio" first-edit="nothing" source-0="486" source-1="488" master-source-0="486" master-source-1="488" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1518" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1519" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1520" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1521" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="FalisMi_Drumsend-Stereo Out" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7851631" position="123391800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1590" type="audio" first-edit="nothing" source-0="1577" source-1="1579" master-source-0="1577" master-source-1="1579" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1591" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1592" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1593" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1594" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="253" name="loop" type="audio" orig-track-id="225" frozen="no" combine-ops="0">
+      <Region name="01-1_OL_BMP_FOHSEND.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7744433" position="441000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="677" type="audio" first-edit="nothing" source-0="651" source-1="653" master-source-0="651" master-source-1="653" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="678" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="679" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="680" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="681" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="02-1_OL_MTB_FOHSEND.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="1" start="0" length="9308820" position="8467200" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2540" type="audio" first-edit="nothing" source-0="717" source-1="719" master-source-0="717" master-source-1="719" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="2541" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="2542" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="2543" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="2544" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="03-1_OL_MV_FOHSEND.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10666687" position="17992800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="809" type="audio" first-edit="nothing" source-0="783" source-1="785" master-source-0="783" master-source-1="785" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="810" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="811" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="812" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="813" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="06-1_OL_LavishLove_FOHSEND_160BPM.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8779376" position="45775800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1019" type="audio" first-edit="nothing" source-0="993" source-1="995" master-source-0="993" master-source-1="995" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1020" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1021" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1022" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1023" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="08-1_OL_CROATIA_FOHSEND.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8089201" position="54860400" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1090" type="audio" first-edit="nothing" source-0="1064" source-1="1066" master-source-0="1064" master-source-1="1066" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1091" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1092" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1093" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1094" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="09-1_OL_FREE_FOHSEND_INTRO_145BPM" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9261074" position="63247816" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1178" type="audio" first-edit="nothing" source-0="1165" source-1="1167" master-source-0="1165" master-source-1="1167" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1179" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1180" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1181" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1182" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="10-1_OL_HH_FOHSEND.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7560001" position="72853200" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2605" type="audio" first-edit="nothing" source-0="1201" source-1="1203" master-source-0="1201" master-source-1="1203" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="2606" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="2607" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="2608" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="2609" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="12-1_OL_LT_FOHSEND" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10461878" position="92786400" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1340" type="audio" first-edit="nothing" source-0="1327" source-1="1329" master-source-0="1327" master-source-1="1329" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1341" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1342" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1343" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1344" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="14-1_OL_BB_FOHSEND_NEW.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9115472" position="113954400" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1502" type="audio" first-edit="nothing" source-0="573" source-1="575" master-source-0="573" master-source-1="575" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1503" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1504" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1505" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1506" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="Plafon Live Render44" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7903159" position="123391800" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5521" type="audio" first-edit="nothing" source-0="5508" source-1="5510" master-source-0="5508" master-source-1="5510" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="5522" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 0
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="5523" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 0
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="5524" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1
+64 1e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="5525" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute">
+            <events>0 1e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+  </Playlists>
+  <UnusedPlaylists/>
+  <RouteGroups/>
+  <Click>
+    <IO name="Click" id="22" direction="Output" default-type="audio" user-latency="0">
+      <Port type="audio" name="Click/audio_out 1">
+        <Connection other="system:playback_1"/>
+      </Port>
+      <Port type="audio" name="Click/audio_out 2">
+        <Connection other="system:playback_2"/>
+      </Port>
+    </IO>
+    <Processor id="23" name="Amp" active="yes" user-latency="0" type="amp">
+      <Controllable name="gaincontrol" id="25" flags="GainLike" value="1.000000000000"/>
+    </Processor>
+  </Click>
+  <LTC-In>
+    <IO name="LTC In" id="21" direction="Input" default-type="audio" user-latency="0">
+      <Port type="audio" name="LTC-in">
+        <Connection other="system:capture_1"/>
+      </Port>
+    </IO>
+  </LTC-In>
+  <LTC-Out>
+    <IO name="LTC Out" id="22" direction="Output" default-type="audio" user-latency="0">
+      <Port type="audio" name="LTC-out"/>
+    </IO>
+  </LTC-Out>
+  <Speakers>
+    <Speaker azimuth="240" elevation="0" distance="1"/>
+    <Speaker azimuth="120" elevation="0" distance="1"/>
+  </Speakers>
+  <TempoMap>
+    <Tempo start="1|1|0" beats-per-minute="120.000000" note-type="4.000000" movable="no"/>
+    <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
+  </TempoMap>
+  <ControlProtocols>
+    <Protocol name="Mackie" active="no"/>
+    <Protocol name="Generic MIDI" active="no"/>
+    <Protocol name="Open Sound Control (OSC)" active="no"/>
+  </ControlProtocols>
+  <Extra>
+    <RulerVisibility timecode="yes" bbt="no" samples="no" minsec="no" tempo="no" meter="no" marker="no" rangemarker="no" transportmarker="no" cdmarker="yes" videotl="no"/>
+    <UI>
+      <Window name="theme-manager" visible="no" x-off="785" y-off="338" x-size="347" y-size="400"/>
+      <Window name="key-editor" visible="no" x-off="576" y-off="332" x-size="760" y-size="377"/>
+      <Window name="rc-options-editor" visible="no" x-off="-2" y-off="107" x-size="661" y-size="574"/>
+      <Window name="session-options-editor" visible="no" x-off="-2" y-off="180" x-size="573" y-size="345"/>
+      <Window name="speaker-config" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="no" x-off="344" y-off="175" x-size="532" y-size="471"/>
+      <Window name="midi-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="R-26-45" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="R-26-48" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="R-26-49" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="M-190-209" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="M-190-212" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="M-190-213" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="M-225-244" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="M-225-247" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="M-225-248" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="M-26-45" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="M-26-48" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="M-26-49" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <GUIObjectState>
+        <Object id="route 26" color="31154:14403:12098"/>
+        <Object id="rtav 26" height="66" visible="1"/>
+        <Object id="automation 47" height="66" visible="0"/>
+        <Object id="automation 34" height="66" visible="0"/>
+        <Object id="automation 38" height="66" visible="0"/>
+        <Object id="strip 26" visible="1" strip-width="Wide">
+          <Object id="processor 45"/>
+        </Object>
+        <Object id="route 190" color="20244:36305:23480"/>
+        <Object id="rtav 190" height="116" visible="1"/>
+        <Object id="automation 211" height="66" visible="0"/>
+        <Object id="automation 198" height="66" visible="0"/>
+        <Object id="automation 202" height="66" visible="0"/>
+        <Object id="route 225" color="47441:46972:16009"/>
+        <Object id="rtav 225" height="116" visible="1"/>
+        <Object id="automation 246" height="66" visible="0"/>
+        <Object id="automation 233" height="66" visible="0"/>
+        <Object id="automation 237" height="66" visible="0"/>
+        <Object id="strip 190" visible="1" strip-width="Wide">
+          <Object id="processor 209"/>
+        </Object>
+        <Object id="strip 225" visible="1" strip-width="Wide">
+          <Object id="processor 244"/>
+        </Object>
+        <Object id="route 908" color="30778:22691:14908"/>
+        <Object id="strip 908" visible="1">
+          <Object id="processor 927"/>
+        </Object>
+        <Object id="rtav 908" height="66" visible="1"/>
+        <Object id="automation 929" height="66" visible="0"/>
+        <Object id="automation 916" height="66" visible="0"/>
+        <Object id="automation 920" height="66" visible="0"/>
+      </GUIObjectState>
+    </UI>
+    <Videomonitor active="no"/>
+  </Extra>
+</Session>
+Object id="rtav 908" height="66" visible="1"/>
+        <Object id="automation 929" height="66" visible="0"/>
+        <Object id="automation 916" height="66" visible="0"/>
+        <Object id="automation 920" height="66" visible="0"/>
+      </GUIObjectState>
+    </UI>
+    <Videomonitor active="no"/>
+  </Extra>
+</Session>
